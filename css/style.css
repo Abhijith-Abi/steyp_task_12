@@ -571,3 +571,121 @@ section#about section.wrapper section.container div.item.three div.right p {
     box-shadow: 7px 11px 10px -5px rgba(0, 0, 0, 0.15);
 }
 /* section partners-end  */
+/* section Testimonials  */
+#testimonials {
+}
+#testimonials section.container {
+    padding: 11px;
+}
+#testimonials section.container h1 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#testimonials section.container h4 {
+    font-size: 24px;
+    font-weight: 500;
+    width: 71%;
+    margin: 0 auto;
+    text-align: center;
+    color: #747474;
+}
+#testimonials section.container div.box {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#testimonials section.container div.box div.left {
+    width: 30%;
+}
+#testimonials section.container div.box div.left div.elizabath {
+    width: 95%;
+}
+#testimonials section.container div.box div.left div.elizabath img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+#testimonials section.container div.box div.right {
+    width: 70%;
+}
+#testimonials section.container div.box div.right small {
+    display: inline-block;
+    width: 30px;
+}
+#testimonials section.container div.box div.right small.r {
+    margin-right: 40px;
+}
+#testimonials section.container div.box div.right small.l {
+    margin-left: 40px;
+}
+#testimonials section.container div.box div.right h3 small img {
+    display: block;
+    width: 100%;
+}
+#testimonials section.container div.box div.right h3 {
+    width: 90%;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 18px;
+    margin-bottom: 35px;
+    color: #747474;
+}
+#testimonials section.container div.box div.right div.elisa {
+    padding: 0 16px;
+}
+#testimonials section.container div.box div.right div.elisa div.imgcontainer {
+    display: flex;
+    align-items: center;
+}
+#testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    span {
+    display: inline-block;
+    width: 80px;
+    margin-right: 13px;
+}
+#testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    span
+    img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+#testimonials section.container div.dotes {
+    padding: 30px;
+    text-align: center;
+}
+#testimonials section.container div.dotes span.round {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #d9d9d9;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#testimonials section.container div.dotes span.round:last-child {
+    margin-right: 0;
+}
+#testimonials section.container div.dotes span.round:first-child {
+    background: #569fa8;
+}
+#testimonials section.container div.dotes span.round:hover {
+    background: #569fa8;
+}
+/* section Testimonials-end  */
