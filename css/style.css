@@ -424,3 +424,73 @@ section#about section.wrapper section.container div.item.three div.right p {
     margin-bottom: 35px;
 }
 /* section about-end */
+/* section services */
+#service {
+    background: #fafafa;
+}
+#service section.container {
+    text-align: center;
+    padding: 100px 0;
+}
+#service section.container div.catimg {
+    width: 90px;
+    margin: 0 auto;
+}
+#service section.container div.catimg img {
+    display: block;
+    width: 100%;
+}
+#service section.container h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+#service section.container h6 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #7c7c7c;
+    width: 65%;
+    margin: 0 auto;
+}
+#service section.container div.cards {
+    margin-top: 50px;
+}
+#service section.container div.cards ul {
+    display: flex;
+    justify-content: space-between;
+}
+#service section.container div.cards ul li {
+    width: 23%;
+    background: #fff;
+    padding: 2%;
+    border-radius: 6px;
+}
+#service section.container div.cards ul li span {
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#service section.container div.cards ul li span img {
+    display: block;
+    width: 100%;
+}
+#service section.container div.cards ul li h4 {
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#service section.container div.cards ul li p {
+    font-size: 17px;
+    color: #adadad;
+}
+#service section.container a.button {
+    display: inline-block;
+    background: var(--Color2);
+    padding: 18px 19px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #fbd6cd;
+    margin-top: 50px;
+}
+/* section services-end */
