@@ -151,8 +151,8 @@ section#main section.wrapper header section.container div.left h1 {
 }
 
 section#main section.wrapper header section.container div.left h1 a {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 section#main section.wrapper header section.container div.middle {
@@ -163,7 +163,7 @@ section#main section.wrapper header section.container div.middle ul {
 }
 
 section#main section.wrapper header section.container div.middle ul li {
-    margin-right: 25px;
+    margin-right: 40px;
 }
 
 section#main
@@ -177,9 +177,8 @@ section#main
 }
 
 section#main section.wrapper header section.container div.middle ul li a {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
-    color: var(--Color2);
 }
 
 section#main section.wrapper header section.container div.right {
@@ -230,7 +229,7 @@ section#main section.wrapper section.spotlight {
     justify-content: space-between;
 }
 section#main section.wrapper section.spotlight div.left {
-    width: 50%;
+    width: 60%;
 }
 section#main section.wrapper section.spotlight div.left div.container {
     display: flex;
@@ -242,7 +241,7 @@ section#main
     div.left
     div.container
     div.title {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 section#main
     section.wrapper
@@ -252,6 +251,8 @@ section#main
     div.title
     h2 {
     color: var(--Color1);
+    font-size: 30px;
+    font-weight: bold;
 }
 section#main
     section.wrapper
@@ -259,6 +260,7 @@ section#main
     div.left
     div.container
     div.catimg {
+    width: 70px;
 }
 section#main
     section.wrapper
@@ -266,40 +268,61 @@ section#main
     div.left
     div.container
     div.catimg
-    span {
-}
-section#main
-    section.wrapper
-    section.spotlight
-    div.left
-    div.container
-    div.catimg
-    span
     img {
+    display: block;
+    width: 100%;
 }
-section#main section.wrapper section.spotlight div.left div.container h1 {
+section#main section.wrapper section.spotlight div.left h1 {
+    font-size: 92px;
+    font-weight: 500;
+    width: 78%;
 }
 section#main section.wrapper section.spotlight div.left h1 span {
     color: var(--Color1);
+    font-weight: 500;
 }
 section#main section.wrapper section.spotlight div.left p {
+    color: #3f3f3f;
+    font-size: 20px;
+    width: 66%;
+    margin-top: 40px;
+    line-height: 1.7rem;
 }
 section#main section.wrapper section.spotlight div.left a.buttion {
+    font-weight: 500;
+    font-size: 22px;
+    background-color: var(--Color2);
+    padding: 18px 28px;
+    border-radius: 6px;
+    color: #fbd6cd;
+    display: inline-block;
+    margin: 35px 0;
 }
 section#main section.wrapper section.spotlight div.left div.content {
 }
 section#main section.wrapper section.spotlight div.left div.content ul {
+    display: flex;
 }
 section#main section.wrapper section.spotlight div.left div.content ul li {
 }
 section#main section.wrapper section.spotlight div.left div.content ul li h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
-section#main section.wrapper section.spotlight div.left div.content ul li p {
+section#main section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 14px;
+    font-weight: 500;
+    width: 84%;
+    color: #747474;
 }
 section#main section.wrapper section.spotlight div.right {
-    width: 45%;
+    width: 40%;
 }
 section#main section.wrapper section.spotlight div.right div.sportlightimg {
+    display: inline-block;
 }
 section#main section.wrapper section.spotlight div.right div.sportlightimg img {
+    display: block;
+    width: 100%;
 }
