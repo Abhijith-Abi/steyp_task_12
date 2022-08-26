@@ -494,3 +494,80 @@ section#about section.wrapper section.container div.item.three div.right p {
     margin-top: 50px;
 }
 /* section services-end */
+/* section partners */
+#partners {
+    padding: 180px 0;
+}
+#partners section.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#partners section.container div.left {
+    width: 50%;
+}
+#partners section.container div.left h1 {
+    font-size: 60px;
+    font-weight: 500;
+    width: 55%;
+    margin-bottom: 40px;
+}
+#partners section.container div.left h4 {
+    font-size: 22px;
+    font-weight: 500;
+    width: 80%;
+    color: #747474;
+    margin-bottom: 25px;
+}
+#partners section.container div.left a.button {
+    display: inline-block;
+    background: var(--Color2);
+    padding: 17px 18px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #fbd6cd;
+    margin-top: 30px;
+}
+#partners section.container div.right {
+    width: 50%;
+}
+#partners section.container div.right div.items {
+    width: 100%;
+}
+#partners section.container div.right div.item {
+    display: flex;
+}
+#partners section.container div.right div.item.one {
+    width: 170px;
+    margin: 0 auto;
+}
+#partners section.container div.right div.item.two {
+    justify-content: space-around;
+    width: 170px;
+    margin: 30px auto;
+}
+#partners section.container div.right div.item.two img {
+    margin-right: 30px;
+}
+#partners section.container div.right div.item.two img:last-child {
+    margin-right: 0;
+}
+#partners section.container div.right div.item.three img {
+    margin-right: 30px;
+}
+#partners section.container div.right div.item.three img:last-child {
+    margin-right: 0;
+}
+#partners section.container div.right div.item.three {
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+#partners section.container div.right div.item img {
+    display: block;
+    width: 100%;
+    box-shadow: 7px 11px 10px -5px rgba(0, 0, 0, 0.15);
+}
+/* section partners-end  */
