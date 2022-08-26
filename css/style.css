@@ -275,7 +275,7 @@ section#main
 section#main section.wrapper section.spotlight div.left h1 {
     font-size: 92px;
     font-weight: 500;
-    width: 78%;
+    width: 82%;
 }
 section#main section.wrapper section.spotlight div.left h1 span {
     color: var(--Color1);
@@ -288,7 +288,7 @@ section#main section.wrapper section.spotlight div.left p {
     margin-top: 40px;
     line-height: 1.7rem;
 }
-section#main section.wrapper section.spotlight div.left a.buttion {
+section#main section.wrapper section.spotlight div.left a.button {
     font-weight: 500;
     font-size: 22px;
     background-color: var(--Color2);
@@ -317,7 +317,7 @@ section#main section.wrapper section.spotlight div.left div.content ul li h6 {
     color: #747474;
 }
 section#main section.wrapper section.spotlight div.right {
-    width: 40%;
+    width: 45%;
 }
 section#main section.wrapper section.spotlight div.right div.sportlightimg {
     display: inline-block;
@@ -326,3 +326,101 @@ section#main section.wrapper section.spotlight div.right div.sportlightimg img {
     display: block;
     width: 100%;
 }
+
+/* section main-end */
+/* section about */
+section#about {
+}
+
+section#about section.wrapper {
+}
+
+section#about section.wrapper section.container {
+}
+
+section#about section.wrapper section.container div.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+section#about section.wrapper section.container div.item.two {
+    flex-direction: row-reverse;
+}
+section#about section.wrapper section.container div.item div.left {
+    width: 48%;
+}
+section#about section.wrapper section.container div.item.one div.left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section#about
+    section.wrapper
+    section.container
+    div.item
+    div.left
+    div.imgcontainer {
+    display: inline-block;
+    width: 55%;
+    margin-right: 40px;
+}
+
+section#about section.wrapper section.container div.item div.left img {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+
+section#about section.wrapper section.container div.item div.left div.imgtwo {
+    display: inline-block;
+    width: 38%;
+}
+section#about
+    section.wrapper
+    section.container
+    div.item
+    div.left
+    div.imgtwo
+    img.one {
+    margin-bottom: 40px;
+}
+section#about section.wrapper section.container div.item div.right {
+    width: 50%;
+    padding: 10px 50px;
+}
+
+section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 62px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+section#about section.wrapper section.container div.item div.right p {
+    font-size: 20px;
+    width: 79%;
+    margin-bottom: 50px;
+    color: #3f3f3f;
+}
+
+section#about section.wrapper section.container div.item div.right a.button {
+    display: inline-block;
+    background: var(--Color2);
+    padding: 18px 19px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #fbd6cd;
+}
+section#about section.wrapper section.container div.item.three div.right {
+    padding: 0;
+    padding-left: 160px;
+}
+section#about section.wrapper section.container div.item.three div.right h1 {
+    margin-top: 0;
+}
+section#about section.wrapper section.container div.item.three div.right p {
+    width: 94%;
+    margin-bottom: 35px;
+}
+/* section about-end */
