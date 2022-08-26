@@ -11,13 +11,16 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 ol,
 ul {
     list-style: none;
 }
+
 del {
     text-decoration: line-through;
 }
+
 body {
     font-family: "Gordita", Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -26,6 +29,7 @@ body {
     min-width: 320px;
     font-weight: 500;
 }
+
 input,
 textarea,
 select {
@@ -36,20 +40,24 @@ select {
 a {
     color: #000;
 }
+
 .thumb {
     display: block;
 }
+
 .thumb img {
     display: block;
     width: 100%;
 }
+
 a:hover,
 .submit:hover {
-    filter: alpha(opacity = 85);
+    filter: alpha(opacity=85);
     -moz-opacity: 0.85;
     -khtml-opacity: 0.85;
     opacity: 0.85;
 }
+
 p {
     line-height: 1.6em;
     font-size: 16px;
@@ -57,22 +65,27 @@ p {
     font-weight: 500;
     color: #000;
 }
+
 .hidden {
     display: none;
 }
+
 br.clear {
     clear: both;
     line-height: 0;
 }
+
 .wrapper {
     width: 85%;
     margin: 0 auto;
     max-width: 1440px;
 }
+
 .flex-wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 @font-face {
     font-family: "Gordita";
     src: url("../fonts/Gordita-Bold.woff") format("woff2"),
@@ -109,6 +122,184 @@ br.clear {
     font-display: swap;
 }
 
-/* header */
+:root {
+    --Color1: #4895a5;
+    --Color2: #ea542f;
+    --Color3: #747474;
+}
 
-/* header-end */
+/* main section */
+
+section#main {
+}
+section#main section.wrapper {
+}
+section#main section.wrapper header {
+    padding: 20px 0;
+}
+
+section#main section.wrapper header section.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#main section.wrapper header section.container div.left {
+}
+
+section#main section.wrapper header section.container div.left h1 {
+}
+
+section#main section.wrapper header section.container div.left h1 a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section#main section.wrapper header section.container div.middle {
+}
+
+section#main section.wrapper header section.container div.middle ul {
+    display: flex;
+}
+
+section#main section.wrapper header section.container div.middle ul li {
+    margin-right: 25px;
+}
+
+section#main
+    section.wrapper
+    header
+    section.container
+    div.middle
+    ul
+    li:last-child {
+    margin-right: 0;
+}
+
+section#main section.wrapper header section.container div.middle ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Color2);
+}
+
+section#main section.wrapper header section.container div.right {
+}
+
+section#main section.wrapper header section.container div.right ul {
+    display: flex;
+}
+
+section#main section.wrapper header section.container div.right ul li {
+    margin-right: 10px;
+}
+
+section#main
+    section.wrapper
+    header
+    section.container
+    div.right
+    ul
+    li:last-child {
+    margin-right: 0;
+}
+
+section#main section.wrapper header section.container div.right ul li a {
+}
+
+section#main section.wrapper header section.container div.right ul li a span {
+    display: block;
+    width: 45px;
+}
+
+section#main
+    section.wrapper
+    header
+    section.container
+    div.right
+    ul
+    li
+    a
+    span
+    img {
+    display: block;
+    width: 100%;
+}
+section#main section.wrapper section.spotlight {
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+section#main section.wrapper section.spotlight div.left {
+    width: 50%;
+}
+section#main section.wrapper section.spotlight div.left div.container {
+    display: flex;
+    align-items: center;
+}
+section#main
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.title {
+    margin-right: 10px;
+}
+section#main
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.title
+    h2 {
+    color: var(--Color1);
+}
+section#main
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.catimg {
+}
+section#main
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.catimg
+    span {
+}
+section#main
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.catimg
+    span
+    img {
+}
+section#main section.wrapper section.spotlight div.left div.container h1 {
+}
+section#main section.wrapper section.spotlight div.left h1 span {
+    color: var(--Color1);
+}
+section#main section.wrapper section.spotlight div.left p {
+}
+section#main section.wrapper section.spotlight div.left a.buttion {
+}
+section#main section.wrapper section.spotlight div.left div.content {
+}
+section#main section.wrapper section.spotlight div.left div.content ul {
+}
+section#main section.wrapper section.spotlight div.left div.content ul li {
+}
+section#main section.wrapper section.spotlight div.left div.content ul li h4 {
+}
+section#main section.wrapper section.spotlight div.left div.content ul li p {
+}
+section#main section.wrapper section.spotlight div.right {
+    width: 45%;
+}
+section#main section.wrapper section.spotlight div.right div.sportlightimg {
+}
+section#main section.wrapper section.spotlight div.right div.sportlightimg img {
+}
