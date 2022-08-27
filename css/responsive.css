@@ -204,3 +204,128 @@
         width: 38px;
     }
 }
+@media all and (max-width: 1050px) {
+    section#main section.wrapper section.spotlight div.left p {
+        width: 86%;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.content
+        ul
+        li
+        h6 {
+        font-size: 12px;
+        width: 98%;
+    }
+    section#about section.wrapper section.container div.item div.right p {
+        width: 85%;
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    section#about section.wrapper section.container div.item div.right h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    section#about section.wrapper section.container div.item.three div.right p {
+        width: 83%;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    #service section.container h1 {
+        font-size: 40px;
+    }
+    #service section.container div.catimg {
+        width: 50px;
+    }
+    #service section.container h6 {
+        width: 68%;
+        font-size: 15px;
+    }
+    #service section.container a.button {
+        padding: 14px 28px;
+        margin-top: 40px;
+    }
+    #testimonials section.container h1 {
+        font-size: 40px;
+    }
+    #testimonials section.container h4 {
+        width: 66%;
+        font-size: 14px;
+    }
+    #testimonials section.container div.box div.right small.r {
+        margin-right: 16px;
+    }
+    #testimonials section.container div.box div.right small {
+        width: 11px;
+    }
+    #testimonials section.container div.box div.right h3 {
+        width: 93%;
+        font-size: 14px;
+    }
+    #testimonials section.container div.box div.right small.l {
+        margin-left: 18px;
+    }
+    #newsletter h1 {
+        font-size: 35px;
+    }
+    #newsletter div.catImg {
+        width: 5%;
+    }
+    #newsletter h4 {
+        width: 69%;
+        font-size: 16px;
+    }
+    #newsletter input[type="text"] {
+        font-size: 14px;
+        height: 45px;
+    }
+    #newsletter input[type="button"] {
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+    #contact {
+        padding: 6%;
+    }
+    #contact h1 {
+        font-size: 40px;
+    }
+    #contact h4 {
+        width: 70%;
+        font-size: 16px;
+    }
+    #contact form input {
+        width: 48%;
+        height: 50px;
+        font-size: 14px;
+    }
+    #contact form textarea {
+        width: 48%;
+        height: 130px;
+        font-size: 13px;
+    }
+    #contact form {
+        height: 190px;
+        width: 85%;
+        margin: 0px auto;
+    }
+    footer section.container div.left h1 {
+        font-size: 20px;
+    }
+    footer section.container div.middle ul li a {
+        font-size: 14px;
+    }
+    footer section.container div.middle ul li {
+        margin-right: 30px;
+    }
+    footer section.container div.right ul li a span {
+        width: 25px;
+    }
+    footer h6 {
+        font-size: 14px;
+    }
+    footer hr {
+        margin: 25px;
+    }
+}
