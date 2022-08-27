@@ -1,0 +1,206 @@
+@media all and (max-width: 1440px) {
+    section#main section.wrapper section.spotlight div.left h1 {
+        width: 97%;
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        width: 82%;
+    }
+    section#about section.wrapper section.container div.item div.right p {
+        width: 95%;
+        font-size: 18px;
+    }
+    section#about section.wrapper section.container div.item div.right h1 {
+        font-size: 59px;
+    }
+    section#about section.wrapper section.container div.item.three div.right p {
+        width: 95%;
+        font-size: 16px;
+    }
+    #service section.container h6 {
+        width: 77%;
+    }
+    #service section.container div.cards ul li h4 {
+        font-size: 23px;
+    }
+    #service section.container div.cards ul li p {
+        font-size: 14px;
+    }
+    #service section.container a.button {
+        padding: 14px 16px;
+    }
+    #partners section.container div.left h1 {
+        width: 64%;
+    }
+    #partners section.container div.left h4 {
+        width: 94%;
+        margin-bottom: 2px;
+    }
+    #partners section.container div.left a.button {
+        padding: 12px 18px;
+        margin-top: 25px;
+    }
+    #testimonials section.container h4 {
+        width: 85%;
+    }
+    #testimonials section.container div.box div.right h3 {
+        width: 98%;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    #newsletter h4 {
+        width: 63%;
+    }
+    #contact h4 {
+        width: 77%;
+    }
+}
+@media all and (max-width: 1280px) {
+    #contact h4 {
+        width: 94%;
+    }
+    #newsletter h1 {
+        font-size: 55px;
+    }
+    #newsletter h4 {
+        width: 88%;
+    }
+    #testimonials section.container div.box div.right h3 {
+        width: 99%;
+        font-size: 16px;
+    }
+    #testimonials
+        section.container
+        div.box
+        div.right
+        div.elisa
+        div.imgcontainer
+        span {
+        width: 10%;
+        margin-right: 20px;
+    }
+    #testimonials section.container h4 {
+        font-size: 19px;
+    }
+    #testimonials section.container h1 {
+        font-size: 50px;
+    }
+    #partners section.container div.left h1 {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    #partners section.container div.left h4 {
+        font-size: 16px;
+    }
+    #partners section.container div.right div.item.one {
+        width: 120px;
+    }
+    #partners section.container div.right div.item.two {
+        margin: 40px auto;
+        width: 120px;
+    }
+    #partners section.container div.right div.item.three {
+        width: 140px;
+    }
+    #partners {
+        padding: 160px 0;
+    }
+    #service section.container div.cards ul li span {
+        width: 40px;
+    }
+    #service section.container div.cards ul li h4 {
+        font-size: 14px;
+    }
+    #service section.container {
+        padding: 50px 0;
+    }
+    #service section.container a.button {
+        font-size: 16px;
+    }
+    #service section.container div.cards ul li p {
+        font-size: 11px;
+    }
+    #service section.container h6 {
+        font-size: 18px;
+    }
+    #service section.container h1 {
+        font-size: 50px;
+        margin-bottom: 26px;
+    }
+    #service section.container div.catimg {
+        width: 60px;
+    }
+    section#about section.wrapper section.container div.item.three div.right {
+        padding-left: 30px;
+    }
+    section#about
+        section.wrapper
+        section.container
+        div.item
+        div.right
+        a.button {
+        padding: 12px 18px;
+        font-size: 18px;
+    }
+    section#about section.wrapper section.container div.item {
+        padding: 55px 0;
+    }
+    section#about section.wrapper section.container div.item div.right h1 {
+        font-size: 41px;
+        margin-bottom: 10px;
+    }
+    section#about section.wrapper section.container div.item div.right {
+        padding: 0 16px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.content
+        ul
+        li
+        h6 {
+        font-size: 12px;
+        width: 91%;
+    }
+    section#main section.wrapper section.spotlight div.left a.button {
+        font-size: 16px;
+        padding: 12px 28px;
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1.4rem;
+    }
+    section#main section.wrapper section.spotlight div.left h1 {
+        font-size: 64px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.container
+        div.catimg {
+        width: 48px;
+    }
+    section#main section.wrapper header section.container div.left h1 a {
+        font-size: 28px;
+    }
+    section#main section.wrapper header section.container div.middle ul li {
+        margin-right: 28px;
+    }
+    section#main section.wrapper header section.container div.middle ul li a {
+        font-size: 18px;
+    }
+    section#main
+        section.wrapper
+        header
+        section.container
+        div.right
+        ul
+        li
+        a
+        span {
+        display: inline-block;
+        width: 38px;
+    }
+}
