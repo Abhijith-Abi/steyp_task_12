@@ -131,6 +131,8 @@ br.clear {
 /* main section */
 
 section#main {
+    background-image: url("../Assets/background-image.png");
+    background-repeat: no-repeat;
 }
 
 section#main section.wrapper {
