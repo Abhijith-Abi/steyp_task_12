@@ -132,8 +132,10 @@ br.clear {
 
 section#main {
 }
+
 section#main section.wrapper {
 }
+
 section#main section.wrapper header {
     padding: 20px 0;
 }
@@ -223,18 +225,22 @@ section#main
     display: block;
     width: 100%;
 }
+
 section#main section.wrapper section.spotlight {
     padding-top: 8%;
     display: flex;
     justify-content: space-between;
 }
+
 section#main section.wrapper section.spotlight div.left {
     width: 60%;
 }
+
 section#main section.wrapper section.spotlight div.left div.container {
     display: flex;
     align-items: center;
 }
+
 section#main
     section.wrapper
     section.spotlight
@@ -243,6 +249,7 @@ section#main
     div.title {
     margin-right: 15px;
 }
+
 section#main
     section.wrapper
     section.spotlight
@@ -254,6 +261,7 @@ section#main
     font-size: 30px;
     font-weight: bold;
 }
+
 section#main
     section.wrapper
     section.spotlight
@@ -262,6 +270,7 @@ section#main
     div.catimg {
     width: 70px;
 }
+
 section#main
     section.wrapper
     section.spotlight
@@ -272,15 +281,18 @@ section#main
     display: block;
     width: 100%;
 }
+
 section#main section.wrapper section.spotlight div.left h1 {
     font-size: 92px;
     font-weight: 500;
     width: 82%;
 }
+
 section#main section.wrapper section.spotlight div.left h1 span {
     color: var(--Color1);
     font-weight: 500;
 }
+
 section#main section.wrapper section.spotlight div.left p {
     color: #3f3f3f;
     font-size: 20px;
@@ -288,6 +300,7 @@ section#main section.wrapper section.spotlight div.left p {
     margin-top: 40px;
     line-height: 1.7rem;
 }
+
 section#main section.wrapper section.spotlight div.left a.button {
     font-weight: 500;
     font-size: 22px;
@@ -298,30 +311,38 @@ section#main section.wrapper section.spotlight div.left a.button {
     display: inline-block;
     margin: 35px 0;
 }
+
 section#main section.wrapper section.spotlight div.left div.content {
 }
+
 section#main section.wrapper section.spotlight div.left div.content ul {
     display: flex;
 }
+
 section#main section.wrapper section.spotlight div.left div.content ul li {
 }
+
 section#main section.wrapper section.spotlight div.left div.content ul li h4 {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 section#main section.wrapper section.spotlight div.left div.content ul li h6 {
     font-size: 14px;
     font-weight: 500;
     width: 84%;
     color: #747474;
 }
+
 section#main section.wrapper section.spotlight div.right {
     width: 45%;
 }
+
 section#main section.wrapper section.spotlight div.right div.sportlightimg {
     display: inline-block;
 }
+
 section#main section.wrapper section.spotlight div.right div.sportlightimg img {
     display: block;
     width: 100%;
@@ -343,12 +364,15 @@ section#about section.wrapper section.container div.item {
     justify-content: space-between;
     padding: 80px 0;
 }
+
 section#about section.wrapper section.container div.item.two {
     flex-direction: row-reverse;
 }
+
 section#about section.wrapper section.container div.item div.left {
     width: 48%;
 }
+
 section#about section.wrapper section.container div.item.one div.left {
     display: flex;
     justify-content: space-evenly;
@@ -375,6 +399,7 @@ section#about section.wrapper section.container div.item div.left div.imgtwo {
     display: inline-block;
     width: 38%;
 }
+
 section#about
     section.wrapper
     section.container
@@ -384,6 +409,7 @@ section#about
     img.one {
     margin-bottom: 40px;
 }
+
 section#about section.wrapper section.container div.item div.right {
     width: 50%;
     padding: 10px 50px;
@@ -412,39 +438,48 @@ section#about section.wrapper section.container div.item div.right a.button {
     border-radius: 8px;
     color: #fbd6cd;
 }
+
 section#about section.wrapper section.container div.item.three div.right {
     padding: 0;
     padding-left: 160px;
 }
+
 section#about section.wrapper section.container div.item.three div.right h1 {
     margin-top: 0;
 }
+
 section#about section.wrapper section.container div.item.three div.right p {
     width: 94%;
     margin-bottom: 35px;
 }
+
 /* section about-end */
 /* section services */
 #service {
     background: #fafafa;
 }
+
 #service section.container {
     text-align: center;
     padding: 100px 0;
 }
+
 #service section.container div.catimg {
     width: 90px;
     margin: 0 auto;
 }
+
 #service section.container div.catimg img {
     display: block;
     width: 100%;
 }
+
 #service section.container h1 {
     font-size: 70px;
     font-weight: 500;
     margin-bottom: 40px;
 }
+
 #service section.container h6 {
     font-size: 22px;
     font-weight: 500;
@@ -452,13 +487,16 @@ section#about section.wrapper section.container div.item.three div.right p {
     width: 65%;
     margin: 0 auto;
 }
+
 #service section.container div.cards {
     margin-top: 50px;
 }
+
 #service section.container div.cards ul {
     display: flex;
     justify-content: space-between;
 }
+
 #service section.container div.cards ul li {
     width: 23%;
     background: #fff;
@@ -466,24 +504,29 @@ section#about section.wrapper section.container div.item.three div.right p {
     border-radius: 6px;
     cursor: pointer;
 }
+
 #service section.container div.cards ul li span {
     width: 60px;
     display: inline-block;
     margin-bottom: 10px;
 }
+
 #service section.container div.cards ul li span img {
     display: block;
     width: 100%;
 }
+
 #service section.container div.cards ul li h4 {
     font-size: 27px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 #service section.container div.cards ul li p {
     font-size: 17px;
     color: #adadad;
 }
+
 #service section.container a.button {
     display: inline-block;
     background: var(--Color2);
@@ -494,25 +537,30 @@ section#about section.wrapper section.container div.item.three div.right p {
     color: #fbd6cd;
     margin-top: 50px;
 }
+
 /* section services-end */
 /* section partners */
 #partners {
     padding: 180px 0;
 }
+
 #partners section.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 #partners section.container div.left {
     width: 50%;
 }
+
 #partners section.container div.left h1 {
     font-size: 60px;
     font-weight: 500;
     width: 55%;
     margin-bottom: 40px;
 }
+
 #partners section.container div.left h4 {
     font-size: 22px;
     font-weight: 500;
@@ -520,6 +568,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     color: #747474;
     margin-bottom: 25px;
 }
+
 #partners section.container div.left a.button {
     display: inline-block;
     background: var(--Color2);
@@ -530,61 +579,76 @@ section#about section.wrapper section.container div.item.three div.right p {
     color: #fbd6cd;
     margin-top: 30px;
 }
+
 #partners section.container div.right {
     width: 50%;
 }
+
 #partners section.container div.right div.items {
     width: 100%;
 }
+
 #partners section.container div.right div.item {
     display: flex;
     cursor: pointer;
 }
+
 #partners section.container div.right div.item.one {
     width: 170px;
     margin: 0 auto;
 }
+
 #partners section.container div.right div.item.two {
     justify-content: space-around;
     width: 170px;
     margin: 30px auto;
 }
+
 #partners section.container div.right div.item.two img {
     margin-right: 30px;
 }
+
 #partners section.container div.right div.item.two img:last-child {
     margin-right: 0;
 }
+
 #partners section.container div.right div.item.three img {
     margin-right: 30px;
 }
+
 #partners section.container div.right div.item.three img:last-child {
     margin-right: 0;
 }
+
 #partners section.container div.right div.item.three {
     width: 170px;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
 }
+
 #partners section.container div.right div.item img {
     display: block;
     width: 100%;
     box-shadow: 7px 11px 10px -5px rgba(0, 0, 0, 0.15);
 }
+
 /* section partners-end  */
 /* section Testimonials  */
 #testimonials {
 }
+
 #testimonials section.container {
     padding: 11px;
 }
+
 #testimonials section.container h1 {
     font-size: 60px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 10px;
 }
+
 #testimonials section.container h4 {
     font-size: 24px;
     font-weight: 500;
@@ -593,6 +657,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     text-align: center;
     color: #747474;
 }
+
 #testimonials section.container div.box {
     display: flex;
     justify-content: space-between;
@@ -602,34 +667,43 @@ section#about section.wrapper section.container div.item.three div.right p {
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
 #testimonials section.container div.box div.left {
     width: 30%;
 }
+
 #testimonials section.container div.box div.left div.elizabath {
     width: 95%;
 }
+
 #testimonials section.container div.box div.left div.elizabath img {
     display: block;
     width: 100%;
     border-radius: 8px;
 }
+
 #testimonials section.container div.box div.right {
     width: 70%;
 }
+
 #testimonials section.container div.box div.right small {
     display: inline-block;
     width: 30px;
 }
+
 #testimonials section.container div.box div.right small.r {
     margin-right: 40px;
 }
+
 #testimonials section.container div.box div.right small.l {
     margin-left: 40px;
 }
+
 #testimonials section.container div.box div.right h3 small img {
     display: block;
     width: 100%;
 }
+
 #testimonials section.container div.box div.right h3 {
     width: 90%;
     font-size: 22px;
@@ -638,13 +712,16 @@ section#about section.wrapper section.container div.item.three div.right p {
     margin-bottom: 35px;
     color: #747474;
 }
+
 #testimonials section.container div.box div.right div.elisa {
     padding: 0 16px;
 }
+
 #testimonials section.container div.box div.right div.elisa div.imgcontainer {
     display: flex;
     align-items: center;
 }
+
 #testimonials
     section.container
     div.box
@@ -656,6 +733,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     width: 80px;
     margin-right: 13px;
 }
+
 #testimonials
     section.container
     div.box
@@ -668,10 +746,12 @@ section#about section.wrapper section.container div.item.three div.right p {
     width: 100%;
     border-radius: 8px;
 }
+
 #testimonials section.container div.dotes {
     padding: 30px;
     text-align: center;
 }
+
 #testimonials section.container div.dotes span.round {
     width: 15px;
     height: 15px;
@@ -681,35 +761,43 @@ section#about section.wrapper section.container div.item.three div.right p {
     margin-right: 10px;
     cursor: pointer;
 }
+
 #testimonials section.container div.dotes span.round:last-child {
     margin-right: 0;
 }
+
 #testimonials section.container div.dotes span.round:first-child {
     background: #569fa8;
 }
+
 #testimonials section.container div.dotes span.round:hover {
     background: #569fa8;
 }
+
 /* section Testimonials-end  */
 /* section Newsletter */
 #newsletter {
     background-color: #fafafa;
     padding: 5%;
 }
+
 #newsletter div.catImg {
     width: 6%;
     margin: 0 auto;
 }
+
 #newsletter div.catImg img {
     display: block;
     width: 100%;
 }
+
 #newsletter h1 {
     font-size: 70px;
     font-weight: 500;
     text-align: center;
     padding: 10px 0;
 }
+
 #newsletter h4 {
     font-size: 22px;
     font-weight: 500;
@@ -719,6 +807,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     padding: 10px 0;
     color: #959595;
 }
+
 #newsletter input[type="text"] {
     background-color: #fff;
     color: #cccccc;
@@ -727,6 +816,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     padding: 8px 16px;
     width: 30%;
 }
+
 #newsletter input[type="button"] {
     background-color: #e6552e;
     color: #e5e5e5;
@@ -735,21 +825,25 @@ section#about section.wrapper section.container div.item.three div.right p {
     border-radius: 0px 6px 6px 0px;
     cursor: pointer;
 }
+
 #newsletter form {
     text-align: center;
     margin-top: 14px;
 }
+
 /* section Newsletter-end */
 /* <!-- section Contact -->*/
 #contact {
     padding: 8%;
 }
+
 #contact h1 {
     font-size: 60px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 15px;
 }
+
 #contact h4 {
     text-align: center;
     width: 65%;
@@ -758,6 +852,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     font-weight: 500;
     padding-bottom: 50px;
 }
+
 #contact form {
     display: flex;
     justify-content: space-between;
@@ -776,6 +871,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     font-size: 18px;
     padding: 10px;
 }
+
 #contact form textarea {
     border: 1px solid #d2d2d2;
     width: 48%;
@@ -785,6 +881,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     padding: 10px;
     font-weight: 500;
 }
+
 #contact form input[type="submit"] {
     background-color: #e6552e;
     color: #e5e5e5;
@@ -794,86 +891,108 @@ section#about section.wrapper section.container div.item.three div.right p {
     display: inline-block;
     border: none;
 }
+
 /*<!-- section Contact-end --> */
 /*<!-- section ShopeImage --> */
 #shopimg {
-    height: 100vh;
 }
+
 #shopimg div.image {
     width: 32.2%;
     height: 100%;
     margin: 0 auto;
 }
+
 #shopimg div.image img {
     display: block;
     width: 100%;
     height: 100%;
 }
+
 /*<!-- section ShopeImage-end --> */
 /*<!-- section Footer --> */
 footer {
     background: #f3f3f3;
     padding: 3%;
 }
+
 /*<!-- section Footer-end --> */
 footer section.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 footer section.container div.left {
 }
+
 footer section.container div.left h1 {
     font-size: 31px;
 }
+
 footer section.container div.left h1 a {
     font-weight: 500;
 }
+
 footer section.container div.middle {
 }
+
 footer section.container div.middle ul {
     display: flex;
     justify-content: space-between;
 }
+
 footer section.container div.middle ul li {
     margin-right: 40px;
 }
+
 footer section.container div.middle ul li:last-child {
     margin-right: 0;
 }
+
 footer section.container div.middle ul li a {
     font-size: 20px;
     font-weight: 500;
 }
+
 footer section.container div.right {
 }
+
 footer section.container div.right ul {
     display: flex;
     justify-content: space-between;
 }
+
 footer section.container div.right ul li {
     margin-right: 10px;
 }
+
 footer section.container div.right ul li:last-child {
     margin-right: 0;
 }
+
 footer section.container div.right ul li a {
 }
+
 footer section.container div.right ul li a span {
     display: inline-block;
     width: 35px;
 }
+
 footer section.container div.right ul li a span img {
     display: block;
     width: 100%;
 }
+
 footer hr {
     border-bottom: 1px solid #cccccc;
     margin: 34px;
 }
+
 footer h6 {
     font-size: 16px;
     text-align: center;
     color: #ababab;
 }
+
 /*<!-- section Footer-end --> */
