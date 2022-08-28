@@ -725,8 +725,468 @@
     }
 }
 @media all and (max-width: 640px) {
+    section#main section.wrapper header section.container div.left h1 a {
+        font-size: 12px;
+    }
+    section#main section.wrapper header section.container div.middle ul li {
+        margin-right: 14px;
+    }
+    #partners section.container div.right div.item.three {
+        width: 52px;
+    }
+    #partners section.container div.right div.item.two {
+        width: 52px;
+    }
+    #partners section.container div.right div.item.one {
+        width: 52px;
+    }
+    #partners section.container div.left h1 {
+        font-size: 30px;
+        width: 85%;
+    }
+    #partners section.container div.left h4 {
+        width: 80%;
+        font-size: 7px;
+    }
+    #partners section.container div.left a.button {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+    #partners {
+        padding: 100px 0;
+    }
+    section#main section.wrapper header section.container div.middle ul li a {
+        font-size: 10px;
+    }
+    section#main
+        section.wrapper
+        header
+        section.container
+        div.right
+        ul
+        li
+        a
+        span {
+        display: inline-block;
+        width: 22px;
+    }
+    section#main section.wrapper section.spotlight div.left h1 {
+        font-size: 28px;
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        width: 99%;
+        font-size: 9px;
+        line-height: 1rem;
+    }
+    section#main section.wrapper section.spotlight div.left a.button {
+        font-size: 8px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.content
+        ul
+        li
+        h6 {
+        font-size: 7px;
+        width: 88%;
+    }
+    section#about
+        section.wrapper
+        section.container
+        div.item
+        div.right
+        a.button {
+        padding: 10px 18px px;
+        font-size: 7px;
+    }
+    section#about section.wrapper section.container div.item div.right p {
+        margin-bottom: 8px;
+    }
+    section#about section.wrapper section.container div.item div.right h1 {
+        font-size: 19px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    section#about section.wrapper section.container div.item div.right p {
+        width: 100%;
+        font-size: 8px;
+    }
+    section#about section.wrapper section.container div.item.three div.right p {
+        width: 97%;
+        font-size: 8px;
+    }
+    #service section.container div.catimg {
+        width: 40px;
+    }
+    #service section.container h1 {
+        font-size: 32px;
+    }
+    #service section.container h6 {
+        width: 91%;
+        font-size: 11px;
+    }
+    #service section.container div.cards ul li h4 {
+        font-size: 9px;
+    }
+    #service section.container a.button {
+        padding: 12px 16px;
+        margin-top: 14px;
+        font-size: 10px;
+    }
+    #testimonials section.container h4 {
+        width: 98%;
+        font-size: 10px;
+    }
+    #testimonials section.container div.box div.right h3 {
+        width: 100%;
+        font-size: 8px;
+        margin-bottom: 2px;
+    }
+    #newsletter h4 {
+        width: 88%;
+    }
+    #contact h4 {
+        width: 98%;
+    }
+    #contact form input {
+        height: 40px;
+        font-size: 12px;
+    }
+    #contact form textarea {
+        height: 94px;
+    }
+    #contact form {
+        height: 140px;
+    }
+    footer section.container div.left h1 {
+        font-size: 10px;
+    }
+    footer section.container div.middle ul li a {
+        font-size: 9px;
+    }
+    footer section.container div.middle ul li {
+        margin-right: 14px;
+    }
+    footer section.container div.right ul li a span {
+        width: 14px;
+    }
 }
 @media all and (max-width: 480px) {
+    section#main section.wrapper header section.container div.middle ul li {
+        margin-right: 8px;
+    }
+    section#main
+        section.wrapper
+        header
+        section.container
+        div.right
+        ul
+        li
+        a
+        span {
+        width: 28px;
+    }
+    section#main section.wrapper header section.container div.left h1 a {
+        font-size: 18px;
+    }
+    section#main section.wrapper section.spotlight div.left h1 {
+        font-size: 22px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.container
+        div.catimg {
+        width: 32px;
+    }
+    section#main section.wrapper header section.container div.middle {
+        display: none;
+    }
+    section#main section.wrapper section.spotlight div.left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section#main section.wrapper section.spotlight div.right {
+        width: 100%;
+    }
+    section#main section.wrapper section.spotlight {
+        flex-wrap: wrap;
+    }
+    section#main section.wrapper section.spotlight div.left h1 {
+        font-size: 32px;
+        width: 69%;
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        width: 100%;
+        font-size: 13px;
+    }
+    section#main section.wrapper section.spotlight div.left a.button {
+        font-size: 11px;
+        border-radius: 4px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.content
+        ul
+        li
+        h4 {
+        font-size: 18px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.content
+        ul
+        li
+        h6 {
+        font-size: 7px;
+        width: 98%;
+    }
+    section#main section.wrapper section.spotlight div.right div.sportlightimg {
+        display: block;
+        width: 55%;
+        margin: 0 auto;
+    }
+    section#about section.wrapper section.container div.item {
+        flex-wrap: wrap;
+    }
+    section#about section.wrapper section.container div.item div.left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section#about section.wrapper section.container div.item div.right {
+        width: 100%;
+    }
+    section#about section.wrapper section.container div.item div.right h1 {
+        font-size: 32px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    section#about section.wrapper section.container div.item div.right p {
+        width: 100%;
+        font-size: 13px;
+    }
+    section#about
+        section.wrapper
+        section.container
+        div.item
+        div.right
+        a.button {
+        padding: 10px 18px px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    section#about section.wrapper section.container div.item.three div.right p {
+        width: 100%;
+        font-size: 12px;
+    }
+    section#about section.wrapper section.container div.item {
+        padding: 30px 0;
+    }
+    #service section.container div.cards ul {
+        flex-wrap: wrap;
+    }
+    #service section.container div.cards ul li {
+        width: 48%;
+        margin-bottom: 14px;
+    }
+    #service section.container div.cards ul li span {
+        width: 50px;
+        margin-bottom: 5px;
+    }
+    #service section.container div.cards ul li h4 {
+        font-size: 15px;
+    }
+    #service section.container div.cards ul li p {
+        font-size: 10px;
+    }
+    #service section.container a.button {
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    #partners section.container {
+        flex-wrap: wrap;
+    }
+    #partners section.container div.left {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #partners section.container div.right {
+        width: 100%;
+    }
+    #partners section.container div.left h1 {
+        font-size: 38px;
+        width: 100%;
+    }
+    #partners {
+        padding: 60px 0;
+    }
+    #partners section.container div.left h4 {
+        width: 98%;
+        font-size: 14px;
+    }
+    #partners section.container div.left a.button {
+        padding: 11px 18px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    #partners section.container div.right div.item.one {
+        width: 90px;
+    }
+    #partners section.container div.right div.item.two {
+        width: 90px;
+    }
+    #partners section.container div.right div.item.three {
+        width: 80px;
+    }
+    #testimonials section.container div.box {
+        flex-wrap: wrap;
+    }
+    #testimonials section.container div.box div.left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #testimonials section.container div.box div.right {
+        width: 100%;
+    }
+    #testimonials section.container div.box div.left div.elizabath {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #testimonials section.container div.box div.right h3 {
+        width: 100%;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    #testimonials
+        section.container
+        div.box
+        div.right
+        div.elisa
+        div.imgcontainer
+        span {
+        width: 16%;
+        margin-right: 8px;
+    }
+    #newsletter div.catImg {
+        width: 12%;
+    }
+    #newsletter h1 {
+        font-size: 20px;
+    }
+    #newsletter h4 {
+        font-size: 12px;
+        width: 94%;
+    }
+    #contact h4 {
+        padding-bottom: 30px;
+    }
+    #contact form {
+        height: 142px;
+        width: 100%;
+    }
+    footer section.container div.middle {
+        display: none;
+    }
+    footer section.container div.left h1 {
+        font-size: 16px;
+    }
+    footer section.container div.right ul li a span {
+        width: 20px;
+    }
+    footer hr {
+        margin: 10px;
+    }
+    #newsletter input[type="text"] {
+        font-size: 12px;
+    }
 }
 @media all and (max-width: 360px) {
+    #partners section.container div.right div.item.one {
+        width: 70px;
+    }
+    #partners section.container div.right div.item.two {
+        width: 70px;
+        margin: 30px auto;
+    }
+    #partners section.container div.right div.item.three {
+        width: 70px;
+    }
+    section#main section.wrapper section.spotlight div.left h1 {
+        font-size: 32px;
+        width: 77%;
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section#main section.wrapper section.spotlight div.left div.content ul {
+        flex-wrap: wrap;
+    }
+    section#main section.wrapper section.spotlight div.left div.content ul li {
+        margin-bottom: 10px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.content
+        ul
+        li
+        h4 {
+        font-size: 20px;
+    }
+    section#main
+        section.wrapper
+        section.spotlight
+        div.left
+        div.content
+        ul
+        li
+        h6 {
+        font-size: 14px;
+        width: 100%;
+    }
+    #service section.container h6 {
+        width: 100%;
+        font-size: 12px;
+    }
+    #service section.container div.cards ul li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #service section.container div.cards ul li h4 {
+        font-size: 22px;
+    }
+    #service section.container div.cards ul li p {
+        font-size: 14px;
+        width: 77%;
+        margin: 0 auto;
+    }
+    #partners section.container div.left h1 {
+        width: 100%;
+    }
+    #partners section.container div.left h4 {
+        width: 100%;
+        font-size: 15px;
+    }
+    #testimonials section.container h4 {
+        width: 100%;
+        font-size: 12px;
+    }
+    #testimonials section.container h1 {
+        font-size: 36px;
+    }
+    #newsletter h4 {
+        font-size: 13px;
+        width: 100%;
+    }
 }
