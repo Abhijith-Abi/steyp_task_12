@@ -924,8 +924,10 @@
         font-size: 13px;
     }
     section#main section.wrapper section.spotlight div.left a.button {
-        font-size: 11px;
+        font-size: 12px;
         border-radius: 4px;
+        margin: 20px 0;
+        padding: 12px 12px;
     }
     section#main
         section.wrapper
@@ -945,8 +947,8 @@
         ul
         li
         h6 {
-        font-size: 7px;
-        width: 98%;
+        font-size: 11px;
+        width: 95%;
     }
     section#main section.wrapper section.spotlight div.right div.sportlightimg {
         display: block;
@@ -978,9 +980,10 @@
         div.item
         div.right
         a.button {
-        padding: 10px 18px px;
+        padding: 12px 8px;
         font-size: 12px;
         border-radius: 4px;
+        margin-top: 5px;
     }
     section#about section.wrapper section.container div.item.three div.right p {
         width: 100%;
