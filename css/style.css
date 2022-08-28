@@ -753,6 +753,36 @@ section#about section.wrapper section.container div.item.three div.right p {
     padding: 30px;
     text-align: center;
 }
+#testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    div.text {
+}
+#testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    div.text
+    h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    div.text
+    p {
+    font-size: 12px;
+    color: var(--Color1);
+}
 
 #testimonials section.container div.dotes span.round {
     width: 15px;
@@ -853,6 +883,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     font-size: 22px;
     font-weight: 500;
     padding-bottom: 50px;
+    color: var(--Color3);
 }
 
 #contact form {
