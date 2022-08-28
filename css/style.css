@@ -135,9 +135,6 @@ section#main {
     background-repeat: no-repeat;
 }
 
-section#main section.wrapper {
-}
-
 section#main section.wrapper header {
     padding: 20px 0;
 }
@@ -148,18 +145,9 @@ section#main section.wrapper header section.container {
     align-items: center;
 }
 
-section#main section.wrapper header section.container div.left {
-}
-
-section#main section.wrapper header section.container div.left h1 {
-}
-
 section#main section.wrapper header section.container div.left h1 a {
     font-size: 32px;
     font-weight: 500;
-}
-
-section#main section.wrapper header section.container div.middle {
 }
 
 section#main section.wrapper header section.container div.middle ul {
@@ -185,9 +173,6 @@ section#main section.wrapper header section.container div.middle ul li a {
     font-weight: 500;
 }
 
-section#main section.wrapper header section.container div.right {
-}
-
 section#main section.wrapper header section.container div.right ul {
     display: flex;
 }
@@ -204,9 +189,6 @@ section#main
     ul
     li:last-child {
     margin-right: 0;
-}
-
-section#main section.wrapper header section.container div.right ul li a {
 }
 
 section#main section.wrapper header section.container div.right ul li a span {
@@ -314,14 +296,8 @@ section#main section.wrapper section.spotlight div.left a.button {
     margin: 35px 0;
 }
 
-section#main section.wrapper section.spotlight div.left div.content {
-}
-
 section#main section.wrapper section.spotlight div.left div.content ul {
     display: flex;
-}
-
-section#main section.wrapper section.spotlight div.left div.content ul li {
 }
 
 section#main section.wrapper section.spotlight div.left div.content ul li h4 {
@@ -352,14 +328,6 @@ section#main section.wrapper section.spotlight div.right div.sportlightimg img {
 
 /* section main-end */
 /* section about */
-section#about {
-}
-
-section#about section.wrapper {
-}
-
-section#about section.wrapper section.container {
-}
 
 section#about section.wrapper section.container div.item {
     display: flex;
@@ -637,8 +605,6 @@ section#about section.wrapper section.container div.item.three div.right p {
 
 /* section partners-end  */
 /* section Testimonials  */
-#testimonials {
-}
 
 #testimonials section.container {
     padding: 11px;
@@ -753,14 +719,7 @@ section#about section.wrapper section.container div.item.three div.right p {
     padding: 30px;
     text-align: center;
 }
-#testimonials
-    section.container
-    div.box
-    div.right
-    div.elisa
-    div.imgcontainer
-    div.text {
-}
+
 #testimonials
     section.container
     div.box
@@ -927,8 +886,6 @@ section#about section.wrapper section.container div.item.three div.right p {
 
 /*<!-- section Contact-end --> */
 /*<!-- section ShopeImage --> */
-#shopimg {
-}
 
 #shopimg div.image {
     width: 32.2%;
@@ -956,18 +913,12 @@ footer section.container {
     align-items: center;
 }
 
-footer section.container div.left {
-}
-
 footer section.container div.left h1 {
     font-size: 31px;
 }
 
 footer section.container div.left h1 a {
     font-weight: 500;
-}
-
-footer section.container div.middle {
 }
 
 footer section.container div.middle ul {
@@ -988,9 +939,6 @@ footer section.container div.middle ul li a {
     font-weight: 500;
 }
 
-footer section.container div.right {
-}
-
 footer section.container div.right ul {
     display: flex;
     justify-content: space-between;
@@ -1002,9 +950,6 @@ footer section.container div.right ul li {
 
 footer section.container div.right ul li:last-child {
     margin-right: 0;
-}
-
-footer section.container div.right ul li a {
 }
 
 footer section.container div.right ul li a span {
