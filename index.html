@@ -11,6 +11,10 @@
         />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/responsive.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <title>AR-SHAKIR</title>
     </head>
 
@@ -96,7 +100,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right" data-aos="zoom-in">
                         <div class="sportlightimg">
                             <img
                                 src="Assets/Landing-Page-Img.png"
@@ -113,7 +117,7 @@
             <section class="wrapper">
                 <section class="container">
                     <div class="item one">
-                        <div class="left">
+                        <div class="left" data-aos="fade-right">
                             <div class="imgcontainer">
                                 <img
                                     src="Assets/About-Us-Img-1.jpg"
@@ -132,7 +136,7 @@
                                 />
                             </div>
                         </div>
-                        <div class="right">
+                        <div class="right" data-aos="fade-left">
                             <h1>About Us</h1>
                             <p>
                                 This Luxurious shower gel effectively cleanses
@@ -145,7 +149,7 @@
                         </div>
                     </div>
                     <div class="item two">
-                        <div class="left">
+                        <div class="left" data-aos="zoom-out-right">
                             <div class="imgdog">
                                 <img
                                     src="Assets/Purifying-skin-img-1.jpg"
@@ -153,7 +157,7 @@
                                 />
                             </div>
                         </div>
-                        <div class="right">
+                        <div class="right" data-aos="zoom-out-left">
                             <h1>Purifying Skin Routine</h1>
                             <p>
                                 This Luxurious shower gel effectively cleanses
@@ -163,7 +167,7 @@
                         </div>
                     </div>
                     <div class="item three">
-                        <div class="left">
+                        <div class="left" data-aos="zoom-in-right">
                             <div class="imgskin">
                                 <img
                                     src="Assets/Purifying-skin-img-2.jpg"
@@ -171,7 +175,7 @@
                                 />
                             </div>
                         </div>
-                        <div class="right">
+                        <div class="right" data-aos="zoom-out">
                             <h1>Purifying Skin Routine</h1>
                             <p>
                                 The 2-in-1 Cleanser offers a purifying
@@ -207,7 +211,11 @@
                     </h6>
                     <div class="cards">
                         <ul>
-                            <li>
+                            <li
+                                data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000"
+                            >
                                 <span>
                                     <img
                                         src="Assets/Property 1=Delivery.svg"
@@ -220,7 +228,11 @@
                                     conforms
                                 </p>
                             </li>
-                            <li>
+                            <li
+                                data-aos="flip-right"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000"
+                            >
                                 <span>
                                     <img
                                         src="Assets/Property 1=Organic.svg"
@@ -233,7 +245,11 @@
                                     hunted.
                                 </p>
                             </li>
-                            <li>
+                            <li
+                                data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000"
+                            >
                                 <span>
                                     <img
                                         src="Assets/Property 1=Natural-Ingre.svg"
@@ -246,7 +262,11 @@
                                     footwear.
                                 </p>
                             </li>
-                            <li>
+                            <li
+                                data-aos="flip-right"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000"
+                            >
                                 <span>
                                     <img
                                         src="Assets/Property 1=No-Side-Effects.svg"
@@ -465,7 +485,7 @@
                     </div>
                     <div class="right">
                         <ul>
-                            <li>
+                            <li data-aos="zoom-out-down">
                                 <a
                                     href="https://www.instagram.com/steypworld/"
                                     target="_blank"
@@ -476,7 +496,7 @@
                                     /></span>
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="zoom-out-right">
                                 <a
                                     href="https://www.facebook.com/steypworld"
                                     target="_blank"
@@ -487,7 +507,7 @@
                                             alt="fb" /></span
                                 ></a>
                             </li>
-                            <li>
+                            <li data-aos="zoom-out-right">
                                 <a
                                     href="https://twitter.com/steypworld"
                                     target="_blank"
@@ -498,7 +518,7 @@
                                             alt="tw" /></span
                                 ></a>
                             </li>
-                            <li>
+                            <li data-aos="zoom-out-down">
                                 <a
                                     href="https://www.youtube.com/c/Steyp"
                                     target="_blank"
@@ -517,5 +537,9 @@
             </section>
         </footer>
         <!-- section Footer-end -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
